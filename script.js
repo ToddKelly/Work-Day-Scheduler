@@ -32,6 +32,10 @@ $("#16 .schedule").val(localStorage.getItem("16"));
 $("#17 .schedule").val(localStorage.getItem("17"));
 $("#18 .schedule").val(localStorage.getItem("18"));
 
+function present_hour() {
+  var present_hour = moment().hour(); 
+}
+
 function time_change() {
 
   
